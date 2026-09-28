@@ -1,0 +1,6 @@
+10
+bonjour
+5
+-3
+salut
+8
