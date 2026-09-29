@@ -8,7 +8,7 @@ fun main(args: Array<String>) {
 }
 
 fun sommeCumulative(tabEntiers: Array<Int>):Array<Int> {
-    val tabResultat = Array(tabEntiers.size) {0}
+    val tabResultat = Array(tabEntiers.size) {0} // tabEntiers = 0 le problème
     for(i in 0 .. tabEntiers.size-1) {
         for(j in 0..i){
             tabResultat[i] += tabEntiers[j]
